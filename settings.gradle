@@ -1,0 +1,8 @@
+include ':practice6'
+include ':practice5'
+include ':practice4'
+include ':lab1'
+include ':practice2'
+include ':practice3'
+include ':practice1'
+rootProject.name = "Test"

@@ -1,3 +1,4 @@
+include ':lab2'
 include ':practice6'
 include ':practice5'
 include ':practice4'

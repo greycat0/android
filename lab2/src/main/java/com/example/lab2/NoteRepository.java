@@ -35,9 +35,9 @@ public class NoteRepository {
         });
     }
 
-    public void delete(NoteEntity note) {
+    public void delete(String note) {
         NoteRoomDatabase.databaseWriteExecutor.execute(() -> {
-            mNoteDao.delete(note.getNote());
+            mNoteDao.delete(note);
         });
     }
 }

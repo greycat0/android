@@ -14,7 +14,7 @@ import java.util.List;
 public class HomeViewModel extends AndroidViewModel {
 
     private MutableLiveData<String> mText;
-    private NoteRepository mRepository;
+    public static NoteRepository mRepository;
 
     private LiveData<List<NoteEntity>> mAllNotes;
 
